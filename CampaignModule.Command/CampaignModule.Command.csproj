@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CampaignModule.Domain\CampaignModule.Domain.csproj" />
+      <ProjectReference Include="..\CampaignModule.Validator\CampaignModule.Validator.csproj" />
+    </ItemGroup>
+
+</Project>
